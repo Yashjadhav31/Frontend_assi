@@ -1,7 +1,8 @@
+import CategoryFilter from '@/components/CategoryFilter';
 import ProductGrid from '@/components/ProductGrid';
 import AddProductForm from '@/components/AddProductForm';
 import CartIcon from '@/components/CartIcon';
-import CategoryFilter from '@/components/CategoryFilter';
+import CartDetails from '@/components/CartDetails'; // if you use cart details
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <CategoryFilter />
       </div>
       <ProductGrid />
+      <CartDetails />
       <AddProductForm />
       <CartIcon />
     </main>
